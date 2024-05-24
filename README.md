@@ -31,7 +31,9 @@ or
 ./vendor/bin/sail up -d
 ```
 
-You might be need file permission to run your project if you get permission denied type error. In this case you have to provide ubuntu user permission for your project by running this command.
+You might be need file permission to run your project if you get permission denied type error 
+`The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied`
+In this case you have to provide ubuntu user permission for your project by running this command.
 
 ```
 With user root:root . You try with command :
