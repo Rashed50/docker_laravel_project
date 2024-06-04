@@ -31,7 +31,7 @@ or
 ./vendor/bin/sail up -d
 ```
 
-You might be need file permission to run your project if you get permission denied type error 
+If every thing ok then after execute above command you laravel project will run and you can search by https://127.0.0.1 address. You might be need file permission to run your project if you get permission denied type error 
 `The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied`
 In this case you have to provide ubuntu user permission for your project by running this command.
 
