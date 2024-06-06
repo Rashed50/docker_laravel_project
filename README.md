@@ -54,6 +54,23 @@ sudo chmod -R 755 storage/
 ```
 
 
+By default, to run Sail commands, the line vendor/bin/sail should precede the commands. We can, however, configure a bash alias that’s just one word to make our commands shorter.
+
+Basically, we’ll replace the line vendor/bin/sail with a word sail:
+```
+alias sail='bash vendor/bin/sail'
+```
+To run all the containers in our docker-compose.yml file and get our application started, we use the following command:
+
+```
+sail up
+```
+
+To start the containers in the background, we use:
+
+```
+sail up -d
+```
 
 
 
