@@ -77,4 +77,6 @@ sail up -d
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). 
+other link
+https://blog.logrocket.com/laravel-and-docker-a-guide-to-using-laravel-sail/
