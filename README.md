@@ -54,7 +54,7 @@ sudo chmod -R 755 storage/
 ```
 
 
-By default, to run Sail commands, the line vendor/bin/sail should precede the commands. We can, however, configure a bash alias that’s just one word to make our commands shorter.
+By default, to run Sail commands, the line <b> "vendor/bin/sail" </b> should precede the commands. We can, however, configure a bash alias that’s just one word to make our commands shorter.
 
 Basically, we’ll replace the line vendor/bin/sail with a word sail:
 ```
